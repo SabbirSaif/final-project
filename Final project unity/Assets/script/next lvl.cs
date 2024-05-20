@@ -12,7 +12,7 @@ public class nextlvl : MonoBehaviour
     void Start()
     {
         buildindex = SceneManager.GetActiveScene().buildIndex;
-        Debug.Log("wellcome to world " + buildindex+1 );
+        Debug.Log("wellcome to world " + 1 );
         
     }
 

@@ -353,7 +353,11 @@
 -analyzer:"/Users/sabbirsaif/Documents/2022.3.21f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Users/sabbirsaif/Documents/2022.3.21f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/script/character.cs"
+"Assets/script/Itemrotation.cs"
 "Assets/script/next lvl.cs"
+"Assets/script/next lvl2.cs"
+"Assets/script/nextLv3.cs"
+"Assets/script/win.cs"
 -langversion:9.0
 
 /deterministic

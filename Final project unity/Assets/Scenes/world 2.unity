@@ -658,6 +658,7 @@ GameObject:
   - component: {fileID: 1214093468}
   - component: {fileID: 1214093467}
   - component: {fileID: 1214093466}
+  - component: {fileID: 1214093469}
   m_Layer: 0
   m_Name: goal
   m_TagString: Untagged
@@ -751,6 +752,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1214093464}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1214093469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214093464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d3b29b1d85d941c29818ba356e676c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1285776614
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,6 +920,22 @@ PrefabInstance:
     - target: {fileID: 1670319733816381499, guid: 08968fbb38ec74732bcac141080b24e2, type: 3}
       propertyPath: m_Name
       value: walls
+      objectReference: {fileID: 0}
+    - target: {fileID: 3322943803506504331, guid: 08968fbb38ec74732bcac141080b24e2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3322943803506504331, guid: 08968fbb38ec74732bcac141080b24e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3322943803506504331, guid: 08968fbb38ec74732bcac141080b24e2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3322943803506504331, guid: 08968fbb38ec74732bcac141080b24e2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
